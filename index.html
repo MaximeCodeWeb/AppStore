@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="dist/style.css">
     <title>Document</title>
 </head>
@@ -15,7 +16,7 @@
 
         <nav>
             <li class="list-none flex m-7 space-x-4 relative font-light w-full">
-                <ul class="font-medium">All Products <br> <div class="w-2 h-2 rounded bg-orange-400 left-12 top-1 relative"></div></ul>
+                <ul class="font-medium">All Products <div class="w-2 h-2 rounded bg-orange-400 left-12 top-1 relative"></div></ul>
                 <ul>Vases</ul>
                 <ul>Holders</ul>
                 <ul>Mirrors</ul>
@@ -25,7 +26,7 @@
     </div>
     <!-- FirstCard -->
     <DIV class="w-full flex items-center justify-center ">
-        <div class="r left-3  w-4.5/5 h-28 m-7 flex space-x-9  items-center justify-center">
+        <div class=" left-3  w-4.5/5 h-28 m-7 flex space-x-9  items-center justify-center">
             <img src="./images/ProductPanier1.jpg" alt="" class="w-20 h-20">
             <div class="flex-row">
                  <h3 class="font-medium">Braided Basket</h3>
@@ -34,17 +35,20 @@
             </div>
         </div>
     </DIV>
-
-    <DIV class="w-full flex items-center justify-center text-white">
-        <div class="r left-3  w-4/5 h-28 m-7 flex space-x-0.5  items-center justify-center rounded-sm ">
-            
+    
+    <!-- SecondCard -->
+    <DIV class="w-full flex items-center justify-center ">
+        <div class="r left-3  w-4/5 h-28 m-7 flex space-x-0.5  items-center justify-center rounded-sm bg-myColor p-7 ">        
             <div class="flex-row">
-                 <h3 class="font-medium text-sky-400">Ary Mini Vaset</h3>
-                 <p class="font-extralight text-white">Reminiscient of ancient porcelain Greek vases.</p>
-                 <h3 class="font-medium text-white">€15</h3>
+                 <h3 class="font-medium text-sky-400"  id="white">Ary Mini Vaset</h3>
+                 <p class="font-extralight "  id="white">Reminiscient of ancient porcelain Greek vases.</p>
+                 <h3 class="font-medium" id="white">€15</h3>
             </div>
-            <img src="./images/icons8-panier-2-96.png" alt="" class="w-20 h-20">
+            <img src="./images/vases.png" alt="" class="w-20 h-20 rounded-xl">
         </div>
     </DIV>
+
+    <div class="w-full flex items-center justify-center">
+        <button type="submit" class="bg-orange pl-5 pr-5 pt-2 pb-2 rounded-xl" id="white">Acheter maintenant</button>
 </body>
 </html>
